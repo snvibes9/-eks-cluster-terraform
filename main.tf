@@ -27,8 +27,8 @@ terraform {
     bucket       = "Add-bucket-name"  
     key          = "Add-path-of-terraform-state-file"
     region       = "us-east-1"  
-    encrypt      = true  
-    use_lockfile = true  #S3 native locking
+ #   encrypt      = true  
+ #   use_lockfile = true  #S3 native locking
   }  
 }
 
