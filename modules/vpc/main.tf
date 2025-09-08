@@ -6,7 +6,7 @@ resource "aws_vpc" "eks_vpc" {
 
   tags = {
     Project     = "EKS-Cluster"
-    Environment = var.tag # TODO: Modify the environment tag
+    Environment = dev # TODO: Modify the environment tag
   }
 }
 
